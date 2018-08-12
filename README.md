@@ -1,2 +1,2 @@
-# benvanmaren.github.io
-Personal site
+# Responsive-Portfolio
+week-2-hw
