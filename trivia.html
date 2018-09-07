@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+    
+    NOTE: If every answer is chosen correctly, then the game works perfectly EXCEPT the timer
+    does not stop when the Game Over screen is up.
+    The game is buggy when an anser is chosen INcorrectly.
+    
+    
+    If I could do this again, I would do it differently. At the time when I made this,
+I tried making dynamic elements for my questions but it became complicated and troublesome.
+I would make a for loop that would dymamically create divs (or another element) for each
+Question and Answer set. Each Answer div would be set an attribute via .attr equal to 
+the Answer itself. The Array of questions and answers would have a "Correct Answer" Array
+element (not included here) that would indicate the correct answer. 
+
+Thus, if (attr === Correct Answer), then wins++ and next for loop iternation.
+If not equal, then losses++ and next for lopp interation.
+
+I would also make it so I only have one click fuction. It would be wound into the Correct 
+Answer check above.
+
+My timer would also be fixed, something that I think would be a LOT easier to fix if I made
+the above changes because my entire code would not be as clunky.
+
+I am looking forward to making these changes when I have time :)  -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/triviastyle.css">
+  
+</head>
+
+<body>
+    <div id="start-button">Click here to start!</div>
+    <div id="timer"></div>
+    <div id="question"></div>
+    <div id="complete"></div>
+    <div id="correct"></div>
+    <div id="incorrect"></div>
+    <div id="again"></div>
+    <div id="a1"></div>
+    <div id="a2"></div>
+    <div id="a3"></div>
+    <div id="a4"></div>
+    <div id="a5"></div>
+    <div id="2question"></div>
+    <div id="2a1"></div>
+    <div id="2a2"></div>
+    <div id="2a3"></div>
+    <div id="2a4"></div>
+    <div id="2a5"></div>
+    <div id="3question"></div>
+    <div id="3a1"></div>
+    <div id="3a2"></div>
+    <div id="3a3"></div>
+    <div id="3a4"></div>
+    <div id="3a5"></div>
+    <div id="4question"></div>
+    <div id="4a1"></div>
+    <div id="4a2"></div>
+    <div id="4a3"></div>
+    <div id="4a4"></div>
+    <div id="4a5"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/javascript/triviaapp.js"></script>
+
+</body>
+
+</html>

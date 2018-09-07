@@ -1,0 +1,16 @@
+body{
+    text-align:center;
+    margin:auto;
+    background-image:url("../images/background.jpg");
+}
+p{
+    font-size:20px;
+    font-family: Impact, Charcoal, sans-serif;
+}
+#timer{
+    font-size:40px;
+    border: dashed green 5px;
+}
+#start-button{
+    font-size:60px;
+}
